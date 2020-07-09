@@ -2,6 +2,17 @@
 
 - 整理用Matlab、Octave、Python-MNE处理EEG信号数据的相关技术流程
 
-MNE和MNE-Python是同一小组开发，出现于2014年，目前还不是主流，但它紧密结合了Python，用Python处理大量EEG数据时，将会发挥作用。
+## MNE-Python
 
-这意味着与“深度学习”结合的紧密程度将会更高。
+MNE-Python出现于2014年，是Python在神经科学方面的三方库，用Python处理大量EEG数据时，代码式的操作方式会大大提高“数据流”处理效率。  
+`sudo pip install mne`即可安装该库，项目首页在：`https://mne.tools/stable/index.html`.  
+
+另查到该三方库存在正在开发的GUI项目MNELAB，基于MNE-Python和Pyside2图形库，构建了初步可用的MNE界面。项目地址在：  
+`https://github.com/cbrnr/mnelab`.
+
+这意味着MNE-Python这个EEG处理库与“深度学习”结合的紧密程度将会更高。
+
+## Octave Related
+Octave是Matlab社区化的产物，官方介绍能兼容Matlab99%的代码，除了不具有Matlab优良的GUI界面以及商业化的三方库，基本的代码是完全可以跑通的，数据分析、处理、可视化方面完全可以替代Matlab。
+
+未来也许会出现Octave的GUI项目，以及三方库的繁荣，届时该产品的商业和开源社区将会出现相辅相成、互相促进的局面。
