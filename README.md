@@ -14,6 +14,11 @@ MNE-Python出现于2014年，是Python在神经科学方面的三方库，用Pyt
 
 这意味着MNE-Python这个EEG处理库与“深度学习”结合的紧密程度将会更高。  
 
+## VScode中新建Jupyter-notebook文件
+1. 安装VScode编辑器，官方方案太慢，推荐下载最新安装包自己手动安装（windows下推荐软件内升级）。  
+2. 安装Python扩展。  
+3. 创建新的Notebook笔记本，`Ctrl + Shift + p`打开命令栏，输入`jupyter`，选择`creat new blank jupyter notebook`创建笔记本。
+
 ## Octave Related(不考虑)
 Octave是Matlab社区化的产物，官方介绍能兼容Matlab99%的代码，除了不具有Matlab优良的GUI界面以及商业化的三方库，基本的代码是完全可以跑通的，数据分析、处理、可视化方面完全可以替代Matlab。
 
