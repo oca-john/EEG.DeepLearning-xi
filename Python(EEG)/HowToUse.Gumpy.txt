@@ -1,0 +1,11 @@
+Introduction:
+gumpy是作者2018年发布的用于实时BCI用途的python第三方工具包，只支持python3，相较于之前的三方库（包括MNE）内置了更多算法，默认的绘图风格偏向ggplot更美观，并对深度学习框架有较好的支持。
+
+Install:
+sudo git clone https://github.com/gumpy-bci/gumpy.git	# 从Github仓库获得包的源代码
+sudo pip install mlxtend PyWavelets		# 安装缺失的包
+
+Import & Using:
+import sys						# 导入sys包
+sys.path.append('/home/oca/bin/gumpy/')	# 追加gumpy包地址到系统路径
+import gumpy					# 导入gumpy包
