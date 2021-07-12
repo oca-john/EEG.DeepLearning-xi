@@ -1,4 +1,4 @@
-# EEG.DeepLearning-xi
+# EEG.DeepLearning-xi (Gitee Repo as Main Add.)
 
 - 整理用Matlab、Octave、Python-MNE处理EEG信号数据的相关技术流程
 
