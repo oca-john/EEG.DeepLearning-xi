@@ -1,4 +1,4 @@
 # README
-## Tensorflow Daily
+## Pytorch Daily
 
-本用于日常所见TF代码的摘录
+本用于日常所见Pytorch代码的摘录
